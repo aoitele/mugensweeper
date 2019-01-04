@@ -20,6 +20,7 @@ module.exports = {
       prefield.push(add);
       adds.push(add);
     }
+    return prefield;
   },
 
   async saveData() {
